@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;0,900;1,900&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="output.css">
 	<title>Document</title>
 </head>
-<body class="h-screen w-screen" style="background: url(./Assets/background-image.png) center center/cover;">
+
+<body class="h-screen w-screen font-[Poppins]"
+	style="background: url(./Assets/background-image.png) center center/cover;">
 	<nav class="flex w-full justify-around items-center py-2">
 		<div class="logo">
 			<img src="./Assets/website-logo.png" alt="">
@@ -24,8 +30,37 @@
 			<button class="px-4 py-2 bg-[#ed017f] rounded-md">iServices</button>
 		</div>
 	</nav>
-	<main>
-		
+	<main class="w-full flex">
+		<div class="w-6/12 flex flex-col px-8 justify-between pl-24">
+			<div class="mt-24">
+				<h1 class="text-7xl font-semibold">Chase Your <br> Dream With Us</h1>
+				<p class="text-lg tracking-wide font-semibold text-gray-500 mt-8">The harder you work for something, the<br>
+					greater you'll feel when you achieve it.</p>
+			</div>
+			<div class="mt-8">
+				<button class="bg-[#ed017f] text-white text-sm px-3 py-1.5 rounded-md tracking-wider">APPLY
+					ONLINE</button>
+				<button
+					class="border-2 border-solid border-[#ed017f] text-[#ed017f] py-1.5 px-3 text-sm rounded-md">LOAN
+					CALCULATOR</button>
+			</div>
+			<div class="flex mt-36">
+				<div class="flex">
+					<img src="./Assets/phone.png" alt="Phone">
+					<p class="inline text-gray-500 border-r-2 border-solid border-gray-500">1659</p>
+				</div>
+				<div class="social-icons">
+					<img class="inline-block" src="./Assets/facebook.png" alt="facebook">
+					<img class="inline-block" src="./Assets/youtube.png" alt="youtube">
+					<img class="inline-block" src="./Assets/linkedin.png" alt="linkedin">
+					<img class="inline-block" src="./Assets/instagram.png" alt="Instagram">
+				</div>
+			</div>
+		</div>
+		<div class="w-6/12 relative">
+			<img src="./Assets/hero-image.png" alt="hero image" class="absolute -top-8 right-0">
+		</div>
 	</main>
 </body>
+
 </html>
